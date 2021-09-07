@@ -5,7 +5,7 @@ const help = (prefix) => {
 
 ◉ *INFORMACION*
    ○ Comando: ⌜ ${prefix} ⌟
-   ○ Creador: ѕнαη∂υу™ 
+   ○ Canal del Gero: ⌜ https://www.youtube.com/watch?v=KwSr4ia_ITA ⌟
 
 
 ◉ *NUEVOS COMANDOS*
