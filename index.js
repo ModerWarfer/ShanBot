@@ -1529,11 +1529,11 @@ break
                     reply(` *Digita el comando 1 para activar, 0 para desactivar *\n * Ejemplo: ${prefix}leveling 1*`)
                 }
             break
-                                case 'nsfwtrap':
+                                case 'nsfwpussy':
                                         try{
                                                 if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
                                                 if (!isUser) return reply(mess.only.daftarB)
-                                                res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap?apikey=APIKEYLU`, {method: 'get'})
+                                                res = await fetchJson(`https://meme-api.herokuapp.com/gimme/pussy`, {method: 'get'})
                                                 buffer = await getBuffer(res.result)
                                                 client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Estas enfermo flaco NEFASTOOOOO'})
                                         } catch (e) {
@@ -1610,7 +1610,7 @@ break
 				case 'nsfwass':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`'https://meme-api.herokuapp.com/gimme/animebooty`, {method: 'get'})
+							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/animebooty`, {method: 'get'})
 							buffer = await getBuffer(res.url)
 							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ese es el culo que querías?'})
 						} catch (e) {
@@ -1621,7 +1621,11 @@ break
 					case 'nsfwsidebobs':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/sideoppai`, {method: 'get'})
+							res = await fetchJson(["https://meme-api.herokuapp.com/gimme/tits",
+										"https://meme-api.herokuapp.com/gimme/BestTits",
+										"https://meme-api.herokuapp.com/gimme/boobs",
+										"https://meme-api.herokuapp.com/gimme/amazingtits",
+										"https://meme-api.herokuapp.com/gimme/TinyTits"], {method: 'get'})
 							buffer = await getBuffer(res.url)
 							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'La vieja de gabo, tremenda puta'})
 						} catch (e) {
@@ -1651,7 +1655,7 @@ break
 							reply('❌ *ERROR* ❌')
 						}
 						break
-					case 'nsfwfeets':
+					case 'nsfwassr':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
 							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/ass`, {method: 'get'})
