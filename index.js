@@ -1804,7 +1804,7 @@ break
         const none = fs.readFileSync('./mp3/gaspi13.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Enano`)) {
+	if (budy.startsWith(`Eze`)) {
         const none = fs.readFileSync('./mp3/gaspi14.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1891,6 +1891,10 @@ break
                  if (budy.startsWith(`Momento epico`)) {
         const none = fs.readFileSync('./mp3/sombare1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }
+                 if (budy.startsWith(`Tetas`)) {
+        const none = fs.readFileSync('./temples/karim.jpeg');
+		client.sendMessage(from, none, MessageType.image, {quoted: mek, mimetype: 'image/jpeg', ptt:true})
                   }
 		if (budy.startsWith(`El bot del orto no funciona`)) {
         const none = fs.readFileSync('./mp3/sombare2.mp3');
