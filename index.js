@@ -1677,10 +1677,10 @@ break
 							reply('❌ *ERROR* ❌')
 						}
 						break
-						case 'nsfwtoin':
+						case 'nsfwkb':
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
-							res = await fetchJson(`https://tobz-api.herokuapp.com/nsfwtrap?apikey=BotWeA`, {method: 'get'})
+							res = await fetchJson(`https://github.com/ModerWarfer/BotW/blob/main/recursos/multimediauwu/WhatsApp%20Image%202021-08-27%20at%2014.12.58.jpeg?raw=true`, {method: 'get'})
 							buffer = await getBuffer(res.url)
 							client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Bro....'})
 						} catch (e) {
