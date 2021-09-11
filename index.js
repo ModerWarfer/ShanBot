@@ -1968,6 +1968,10 @@ break
         const none = fs.readFileSync('./temples/karim.jpeg');
 		client.sendMessage(from, none, MessageType.image, {quoted: mek, mimetype: 'image/jpeg', ptt:true})
                   }
+                 if (budy.startsWith(`viernes`)) {
+        const none = fs.readFileSync('./temples/vier.jpeg');
+		client.sendMessage(from, none, MessageType.image, {quoted: mek, mimetype: 'image/jpeg', ptt:true})
+                  }
 		if (budy.startsWith(`El bot del orto no funciona`)) {
         const none = fs.readFileSync('./mp3/sombare2.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
