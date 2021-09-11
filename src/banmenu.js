@@ -22,8 +22,7 @@ Ejemplo: *ban @xxxxxxx
 Ejemplo: *desban @xxxxxxx
 
 ══════════════
-
-ву ѕнαη∂υу`
+`
 
 }
 
