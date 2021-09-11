@@ -41,7 +41,18 @@ Apurate bot
 Un chino
 No funciona
 Boliviano
-Enano
+
+Eze
+Karim
+Joaquin
+Gero
+Avril
+Ivo
+Ola
+jajaja
+Gay
+So
+
 
 
 _*Ojito escribe tal y como esta en el mensaje*_
