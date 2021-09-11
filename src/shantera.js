@@ -44,6 +44,7 @@ Boliviano
 
 Eze
 Karim
+Nico
 Joaquin
 Gero
 Avril
@@ -52,6 +53,7 @@ Ola
 jajaja
 Gay
 So
+viernes
 
 
 
