@@ -1756,7 +1756,7 @@ break
                   reply(`Eze`)
                   }
 
-		if (budy.includes(`ola`)) {
+		if (budy.includes(`Ola`)) {
                   reply(`te falto la h homosexual traga vergas `)
                   }
 
