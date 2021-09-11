@@ -1796,10 +1796,6 @@ break
                   reply(`Ovo*`)
                   }
 
-		if (budy.includes(``)) {
-                  reply(``)
-                  }
-
 		if (budy.includes(`Gracias`)) {
                   reply(`De nada padre`)
                   }
