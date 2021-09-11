@@ -1720,8 +1720,84 @@ break
                   reply(`Buenos Dias trolos de mierda`)
                   }
 
+		if (budy.includes(`Nico`)) {
+                  reply(`El furro?`)
+                  }
+
+		if (budy.includes(`nico`)) {
+                  reply(`el furro?`)
+                  }
+
+		if (budy.includes(`Joa`)) {
+                  reply(`Asperger`)
+                  }
+
+		if (budy.includes(`joa`)) {
+                  reply(`asperger`)
+                  }
+
+		if (budy.includes(`ger`)) {
+                  reply(`narcisista egolatra megalomano`)
+                  }
+
+		if (budy.includes(`Ger`)) {
+                  reply(`Narcisista egolatra megalomano`)
+                  }
+
+		if (budy.includes(`plaza`)) {
+                  reply(`a que hora vamos ?`)
+                  }
+
+		if (budy.includes(`enano`)) {
+                  reply(`eze`)
+                  }
+
+		if (budy.includes(`Enano`)) {
+                  reply(`Eze`)
+                  }
+
+		if (budy.includes(`ola`)) {
+                  reply(`te falto la h homosexual traga vergas `)
+                  }
+
+		if (budy.includes(`hola`)) {
+                  reply(`hola, apeteces de sexo?`)
+                  }
+
+		if (budy.includes(`Hola`)) {
+                  reply(`Hola, apeteces de sexo?`)
+                  }
+
+		if (budy.includes(`kar`)) {
+                  reply(`el tetudo comunista`)
+                  }
+
+		if (budy.includes(`Kar`)) {
+                  reply(`El tetudo comunista`)
+                  }
+
+		if (budy.includes(`carim`)) {
+                  reply(`el tetudo comunista`)
+                  }
+
 		if (budy.includes(`Bot gay`)) {
                   reply(`Miren a este boludito`)
+                  }
+
+		if (budy.includes(`ril`)) {
+                  reply(`no me toquen a mi Avril ÙnÚ`)
+                  }
+
+		if (budy.includes(`ivo`)) {
+                  reply(`ovo*`)
+                  }
+
+		if (budy.includes(`Ivo`)) {
+                  reply(`Ovo*`)
+                  }
+
+		if (budy.includes(``)) {
+                  reply(``)
                   }
 
 		if (budy.includes(`Gracias`)) {
