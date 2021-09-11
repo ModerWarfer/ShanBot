@@ -98,8 +98,6 @@ Para activar los NSFW coloque el siguiente comando ${prefix}nsfw 1 y para desact
 
 
 
-ву ѕнαη∂υу
-
 
 ⌜ *ごきげんよう :)* ⌟ 
 `
