@@ -1224,6 +1224,31 @@ case 'ngc':
       client.sendMessage(from, '*⌊✅⌉ El nombre del grupo fue cambiado*', text, {quoted: mek})
       break
 
+case 'top5':
+	addFilter(from)
+	if (!isGroup) return reply('*Este comando solo puede usarse en grupos🤕')
+	member = []
+	top5 = args.join(' ')
+	const p1 = groupMembers
+	const p2 = groupMembers
+	const p3 = groupMembers
+	const p4 = groupMembers
+	const p5 = groupMembers
+	const o1 = p1[Math.floor(Math.random() * p1.length)]
+	const o2 = p2[Math.floor(Math.random() * p2.length)]
+	const o3 = p3[Math.floor(Math.random() * p3.length)]
+	const o4 = p4[Math.floor(Math.random() * p4.length)]
+	const o5 = p5[Math.floor(Math.random() * p5.length)]
+	teks = `
+	*😵TOP CINCO:*\n\n1= @${o1.jid.split('@')[0]}\n\n2=@${o2.jid.split('@')[0]}\n\n3=@${o3.jid.split('@')[0]}\n\n4= @${o4.jid.split('@')[0]}\n\n5= @${o5.jid.split('@')[0]}\n\n\n_Top 5 de_ *${top5}* en este grupo`
+	member.push(o1.jid)
+	member.push(o2.jid)
+	member.push(o3.jid)
+	member.push(o4.jid)
+	member.push(o5.jid)
+	mentions(teks, member, true)
+	break
+					
 case 'dgc':
       if (!isGroup) return reply(mess.only.group)
       if (!isGroupAdmins) return reply(mess.only.admin)
