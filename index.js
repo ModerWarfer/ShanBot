@@ -1816,11 +1816,19 @@ break
                   }
 
 		if (budy.includes(`ivo`)) {
-                  reply(`ovo*`)
+                  reply(`me veo en la necesidad de corregirte, ya que en realidad se llama Ovo`)
+                  }
+
+		if (budy.includes(`ovo`)) {
+                  reply(`ivo*`)
+                  }
+
+		if (budy.includes(`Ovo`)) {
+                  reply(`Ivo*`)
                   }
 
 		if (budy.includes(`Ivo`)) {
-                  reply(`Ovo*`)
+                  reply(`me veo en la necesidad de corregirte, ya que en realidad se llama Ovo`)
                   }
 
 		if (budy.includes(`Gracias`)) {
