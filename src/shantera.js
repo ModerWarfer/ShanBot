@@ -54,7 +54,9 @@ jajaja
 Gay
 So
 viernes
-
+Loli
+Empanada 
+Tetas
 
 
 _*Ojito escribe tal y como esta en el mensaje*_
